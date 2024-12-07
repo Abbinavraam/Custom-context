@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Context Menu</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div id="context-menu">
+        <div class="items">Search</div>
+        <div class="items">Cart</div>
+        <div class="items">Orders</div>
+        <div class="items">Wishlist</div>
+        <div class="items">Sign-in</div>
+        <div class="items"><a href="#" target="_blank">Link to new tab</a></div>
+        <div class="items"><a href="#" onclick="window.open('https://www.google.com/')">Link to new window</a></div>
+        <div class="items" onclick="location.reload()">Reload</div>
+    </div>
+</body>
+<script src="custom.js"></script>
+</html>
